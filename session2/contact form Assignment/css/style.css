@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Michroma", sans-serif;
+}
+
+
+.parent {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+.right_side h1 {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+  font-weight: 900;
+}
+
+
+.left_side {
+  background-color: #00bcd4;
+  color: white;
+  padding: 40px;
+  width: 50%;
+  
+}
+
+
+.left_side .content{
+ text-align: center;
+ margin-top: 150px;
+}
+.left_side h1{
+    font-weight: 1000;
+}
+.left_side .p1{
+    margin-top: 20px;
+}
+.left_side .p2{
+    margin-top: 20px;
+}
+
+
+
+.right_side {
+  padding: 40px;
+  width: 50%;
+}
+
+.right_side h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 60%;              
+  margin: 10px auto;       
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  resize: none;
+  display: block;
+}
+input{
+    background-color: lightgray;
+}
+textarea{
+    background-color: lightgray;
+}
+.required{
+    margin-left: 120px;
+}
+form button {
+    width: 140px;
+    margin: auto;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
