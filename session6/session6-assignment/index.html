@@ -1,145 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Document</title>
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <meta charset="UTF-8">
+  <title>Pets</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+</head>
 <body>
 
-  <!-- first-section -->
-  <section class="first-section">
-  <div class="overlay">
-  <div class="container">
+  <!-- Section 1 -->
+<header class="hero-section">
 
   <!-- Navbar -->
-  <nav class="navbar">
-  <div class="navbar-left">
-  <div class="icon-stack">
-  <i class="fa-solid fa-paw"></i>
-  <i class="fa-solid fa-paw lower-icon"></i>
-  </div>
-  <span class="logo-text">Paws n’ Play</span>
-  </div>
-  <ul class="nav-links">
-  <li><a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
-  <li><a href="#">Services <i class="fa-solid fa-chevron-down"></i></a></li>
-  <li><a href="#">About Us</a></li>
-  <li><a href="#">Blog</a></li>
-  <li><a href="#">Contact</a></li>
-  </ul>
-  <button class="btn btn-white">Get Started</button>
+  <nav class="navbar container">
+    <div class="logo-area">
+      <div class="logo-icons">
+        <i class="fa-solid fa-paw"></i>
+        <i class="fa-solid fa-paw lower-icon"></i>
+      </div>
+      <h3>Paws n’ Play</h3>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
+      <li><a href="#">Services <i class="fa-solid fa-chevron-down"></i></a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn btn-white">Get Started</a>
   </nav>
 
-      <!-- Text and btn -->
- <div class="first-text">
-  <h1>Pawsitively Perfect:<br>Where Every Pet’s<br>Dream Comes True!</h1>
-  <p>
-   Welcome to Paws n’ Play, the ultimate destination for pet lovers! Explore a world of
-   tail-wagging joy and furry companionship with our wide range of products and services.
-   From pampering essentials to playful toys, we’re here to make every moment with your
-   pet pawsitively perfect!"
-  </p>
-  <button class="btn btn-outline">
-  <div class="icon-stack small">
-  <i class="fa-solid fa-paw"></i>
-  <i class="fa-solid fa-paw lower-icon"></i>
-  </div>
-  Shop Now
-  </button>
-  </div>
-  </div>
-  </div>
-  </section>
+  <!-- Hero Content -->
+  <div class="hero-content container">
+    <h1>Pawsitively Perfect:<br> Where Every Pet's<br> Dream Comes True!</h1>
+    <p>Welcome to Paws n’ Play, the ultimate destination for pet lovers! Explore a world of tail-wagging joy and furry companionship with our wide range of products and services. From pampering essentials to playful toys, we're here to make every moment with your pet pawsitively perfect!"</p>
 
-  <!-- second-section -->
-  
-<section class="shop-section">
-  <div class="container">
-    
-    <!-- العنوان العلوي -->
-    <div class="section-header">
+    <a href="#" class="btn btn-outline">
+      Shop Now
       <div class="icon-stack">
         <i class="fa-solid fa-paw"></i>
         <i class="fa-solid fa-paw lower-icon"></i>
       </div>
-      <h2>Shop</h2>
-    </div>
-    <hr>
+    </a>
+  </div>
+</header>
 
-    <!-- Featured + بحث -->
-    <div class="top-bar">
-      <h3>Featured Products</h3>
+<!-- Section 2 -->
+<section class="shop-section container">
+  <!-- Header -->
+  <div class="section-header">
+  <div class="section-title">
+    <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+        <i class="fa-solid fa-paw lower-icon"></i>
+    </div>
+    <span>Shop</span> 
+  </div>
+  <hr>
+</div>
+
+  <!-- Main Box -->
+  <div class="shop-box">
+    <!-- Top Row: Title & Search -->
+    <div class="shop-top">
+      <h2>Featured Products</h2>
       <div class="search-box">
-        <i class="fa-brands fa-searchengin"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
         <input type="text" placeholder="Search">
       </div>
     </div>
 
-    <!-- الفلاتر -->
-    <div class="filters">
-      <span class="filter active">Random</span>
-      <span class="filter">Cat</span>
-      <span class="filter">Dogs</span>
-      <span class="filter">Fish</span>
-      <span class="filter">Birds</span>
+    <!-- Buttons -->
+    <div class="shop-filters">
+      <button class="filter">Random</button>
+      <button class="filter">Cat</button>
+      <button class="filter">Dogs</button>
+      <button class="filter">Fish</button>
+      <button class="filter">Birds</button>
     </div>
 
-    <!-- المنتجات -->
+    <!-- Product Grid -->
     <div class="product-grid">
-      <div class="product-card">
-        <img src="images/cat food orange bag.png" alt="Cat Food">
+      <div class="product">
+
+        <!-- Product 1 -->
+        <img src="images/cat food orange bag.png" alt="Product 1">
         <div class="overlay">
-          <div class="overlay-header">
+          <div class="top-info">
             <span>#15,000.00</span>
             <i class="fa-regular fa-heart"></i>
           </div>
           <div class="overlay-content">
-            <h4>Cat Crunch</h4>
-            <p>Delicious and crunchy food for your feline friend.</p>
-            <div class="product-actions">
-              <button class="quantity-btn">+ 1 -</button>
-              <button class="add-btn">Add to cart</button>
+            <h3>Multivitamin For Cat</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias tenetur hic rem.</p>
+            <div class="actions">
+              <button class="p-and-m">+ 1 -</button>
+              <button class="add">Add to cart</button>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- كرر نفس الـ div مع الصور التانية -->
-      <div class="product-card">
-        <img src="images/cat food white bag.png" alt="Cat Food">
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="images/cat food white bag.png" alt="Product 2">
         <div class="overlay">
-          <div class="overlay-header">
+          <div class="top-info">
             <span>#15,000.00</span>
-           <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-heart"></i>
           </div>
           <div class="overlay-content">
-            <h4>Dog Treat Pack</h4>
-            <p>Boxed delight for your loyal companion.</p>
-            <div class="product-actions">
-              <button class="quantity-btn">+ 1 -</button>
-              <button class="add-btn">Add to cart</button>
+            <h3>Cat Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias tenetur hic rem.</p>
+            <div class="actions">
+              <button class="p-and-m">+ 1 -</button>
+              <button class="add">Add to cart</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="product-card">
-        <img src="images/dog food bag.png" alt="Dog Food">
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="images/dog food bag.png" alt="Product 3">
         <div class="overlay">
-          <div class="overlay-header">
+          <div class="top-info">
             <span>#15,000.00</span>
             <i class="fa-regular fa-heart"></i>
           </div>
           <div class="overlay-content">
-            <h4>Healthy Bites</h4>
-            <p>Nutritious food for your dog’s daily needs.</p>
-            <div class="product-actions">
-              <button class="quantity-btn">+ 1 -</button>
-              <button class="add-btn">Add to cart</button>
+            <h3>Dog Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias tenetur hic rem.</p>
+            <div class="actions">
+              <button class="p-and-m">+ 1 -</button>
+              <button class="add">Add to cart</button>
             </div>
           </div>
         </div>
@@ -152,6 +151,374 @@
     </div>
   </div>
 </section>
+
+<!-- Section 3 -->
+<section class="services-section container">
+  <!-- Header -->
+  <div class="section-header">
+  <div class="section-title">
+    <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-paw lower-icon"></i>
+    </div>
+    <span>Services</span> 
+  </div>
+  <hr>
+</div>
+
+  <!-- Services Grid -->
+   <div class="services-box">
+  <div class="services-grid">
+    <!-- Left 2/2 -->
+    <div class="services-left">
+      <div class="service-item">
+        <img src="images/grooming.png" alt="Grooming">
+        <div class="service-overlay">
+          <h3>Grooming</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illo
+           cupiditate repellat aspernatur animi deleniti adipisci quis modi quaerat nobis.</p>
+          <a href="#" class="btn-dark">Learn More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <img src="images/boarding.png" alt="Boarding">
+        <div class="service-overlay">
+          <h3>Boarding</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illo
+           cupiditate repellat aspernatur animi deleniti adipisci quis modi quaerat nobis.</p>
+          <a href="#" class="btn-dark">Learn More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <img src="images/veterinary.png" alt="Veterinary">
+        <div class="service-overlay">
+          <h3>Veterinary</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illo
+           cupiditate repellat aspernatur animi deleniti adipisci quis modi quaerat nobis.</p>
+          <a href="#" class="btn-dark">Learn More</a>
+        </div>
+      </div>
+      <div class="service-item">
+        <img src="images/training.png" alt="Training">
+        <div class="service-overlay">
+          <h3>Training</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illo
+           cupiditate repellat aspernatur animi deleniti adipisci quis modi quaerat nobis.</p>
+          <a href="#" class="btn-dark">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right one tall image -->
+    <div class="service-item tall">
+      <img src="images/adoption.png" alt="Adoption">
+      <div class="service-overlay">
+        <h3>Adoption</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ipsa eaque dicta
+           et aspernatur. Nulla doloremque quae autem, quibusdam minima cumque repudiandae eum enim pariatur, officiis quos sequi eveniet quas.</p>
+        <a href="#" class="btn-dark">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4 -->
+<section class="about-section container">
+  <!-- Header -->
+  <div class="section-header">
+    <div class="section-title">
+      <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-paw lower-icon"></i>
+      </div>
+      <span>About Us</span>
+    </div>
+    <hr>
+  </div>
+
+  <!-- Content -->
+   <div class="about-box">
+  <div class="about-content">
+    <!-- Left Text -->
+    <div class="about-text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae aut nulla cupiditate veniam reiciendis odit eius quasi eum non corporis nobis pariatur minima unde architecto, consequuntur debitis accusamus deleniti soluta, asperiores ducimus vel? Debitis quibusdam perferendis vero animi corporis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae aut nulla cupiditate veniam reiciendis odit eius quasi eum non corporis nobis pariatur minima unde architecto, consequuntur debitis accusamus deleniti soluta, asperiores ducimus vel? Debitis quibusdam perferendis vero animi corporis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae aut nulla cupiditate veniam reiciendis odit eius quasi eum non corporis nobis pariatur minima unde architecto, consequuntur debitis accusamus deleniti soluta, asperiores ducimus vel? Debitis quibusdam perferendis vero animi corporis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae aut nulla cupiditate veniam reiciendis odit eius quasi eum non corporis nobis pariatur minima unde architecto, consequuntur debitis accusamus deleniti soluta, asperiores ducimus vel? Debitis quibusdam perferendis vero animi corporis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae aut nulla cupiditate veniam reiciendis odit eius quasi eum non corporis nobis pariatur minima unde architecto, consequuntur debitis accusamus deleniti soluta, asperiores ducimus vel? Debitis quibusdam perferendis vero animi corporis.</p>
+    </div>
+
+    <!-- Right Images -->
+    <div class="about-images">
+      <img src="images/cat1.png" alt="Main Cat" class="main-img">
+      <img src="images/cat2.png" alt="Small Cat" class="overlay-img">
+    </div>
+  </div>
+</section>
+
+<!-- Section 5 -->
+ <section class="our-team-section">
+  <div class="section-header">
+    <div class="section-title">
+      <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-paw lower-icon"></i>
+      </div>
+      <span>Our Team</span>
+    </div>
+    <hr>
+  </div>
+
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/Dr. Olivia.png" alt="Dr. Olivia Rhye" />
+      <h3>Dr. Olivia Rhye</h3>
+      <p class="role">Senior Veterinarian</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-dribbble"></i>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="images/Phoenix Baker.png" alt="Phoenix Baker" />
+      <h3>Phoenix Baker</h3>
+      <p class="role">Asst. Veterinarian</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-dribbble"></i>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="images/Lana Steiner.png" alt="Lana Steiner" />
+      <h3>Lana Steiner</h3>
+      <p class="role">Resident Veterinarian</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-dribbble"></i>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="images/Demi Wilkinson.png" alt="Demi Wilkinson" />
+      <h3>Demi Wilkinson</h3>
+      <p class="role">Intern Veterinarian</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-dribbble"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 6 -->
+ <section class="blog-section">
+  <div class="section-header">
+    <div class="section-title">
+      <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-paw lower-icon"></i>
+      </div>
+      <span>Blog</span>
+    </div>
+    <hr>
+  </div>
+
+  <div class="blog-content">
+    <div class="blog-text">
+      <h2>Milestone: 20,000 Pets Treated</h2>
+      <hr class="title-underline" />
+      <p class="main-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo consectetur cum, aperiam,
+        incidunt molestias temporibus illum facilis amet ad illo, voluptatem sunt suscipit explicabo
+        id nesciunt soluta cumque! Voluptatem non et itaque quis quam iusto inventore provident
+        consequatur molestiae qui, ad error sint quibusdam similique ducimus expedita quia. Ab,
+        atque error at doloremque qui facilis quo perferendis quia. Explicabo maiores doloribus quis,
+        tempore similique temporibus a quae inventore incidunt eum.Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Laborum, vel quibusdam sit asperiores natus assumenda veniam qui placeat 
+        inventore fuga similique ipsa maxime soluta, est, voluptatibus praesentium. Quo, maiores aut? </p>
+
+      <h4>Renewed target</h4>
+      <p class="sub-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vel quibusdam sit asperiores
+        natus assumenda veniam qui placeat inventore fuga similique ipsa maxime soluta, est, voluptatibus
+        praesentium. Quo, maiores aut?
+      </p>
+
+      <button class="read-more-btn">Read more</button>
+    </div>
+
+    <div class="blog-image">
+      <img src="images/golden dog2.png" alt="Video preview" />
+      <div class="play-button">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 7 -->
+ <section class="contact-section">
+  <div class="section-header7">
+     <div class="section-title7">
+      <div class="icons-column">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-paw lower-icon"></i>
+      </div>
+      <span>Get in touch</span>
+    </div>
+    <hr>
+  </div>
+
+  <div class="contact-content">
+    <!-- Form -->
+    <div class="contact-form">
+      <form>
+        <div class="input-row">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last name" />
+        </div>
+        <input type="email" placeholder="you@company.com" />
+        <textarea placeholder="Message"></textarea>
+        <label class="checkbox">
+          <input type="checkbox" />
+          <span>You agree to our friendly <a href="#">privacy policy</a>.</span>
+        </label>
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fa-regular fa-envelope"></i>
+        <h4>Email</h4>
+        <p class="desc">Our friendly team is here to help.</p>
+        <p><strong>hello@pawsnplay.com</strong></p>
+      </div>
+      <div class="info-item">
+        <i class="fa-regular fa-comment"></i>
+        <h4>Live chat</h4>
+        <p class="desc">Our friendly team is here to help.</p>
+        <p><strong>Start new chat</strong></p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <h4>Office</h4>
+        <p class="desc">Come say hello at our office HQ.</p>
+        <p><strong>123, Yaya Abatan st, Ogba Lagos.</strong></p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <h4>Phone</h4>
+        <p class="desc">Mon-Fri from 8am to 5pm.</p>
+        <p><strong>+234 901234 384</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="bottom-line" />
+</section>
+
+<!-- Section 8 -->
+<section class="footer-section">
+  <div class="newsletter">
+    <div class="newsletter-left">
+      <h2>Join our newsletter</h2>
+      <p>Be the first to receive latest updates on promo, sales and offers</p>
+    </div>
+    <div class="newsletter-right">
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <div class="footer-main">
+    <div class="footer-column brand">
+      <div class="logo">
+        <i class="fa-solid fa-paw"></i>
+        <i class="fa-solid fa-paw lower-icon"></i>
+        <span>Paws n’ Play</span>
+      </div>
+      <p>Where wagging tails and purring hearts <br>reign supreme!</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Shop</h4>
+      <ul>
+        <li>Pet Adoption</li>
+        <li>Nutrition</li>
+        <li>Pet Care</li>
+        <li>Pet Food</li>
+        <li>Pricing</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li>About us</li>
+        <li>Careers</li>
+        <li>Press</li>
+        <li>News</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Services</h4>
+      <ul>
+        <li>Grooming</li>
+        <li>Boarding</li>
+        <li>Training</li>
+        <li>Vetinary</li>
+        <li>Support</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Social</h4>
+      <ul>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+        <li>Facebook</li>
+        <li>AngelList</li>
+        <li>Dribbble</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Legal</h4>
+      <ul>
+        <li>Terms</li>
+        <li>Privacy</li>
+        <li>Cookies</li>
+        <li>Licenses</li>
+        <li>Settings</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="footer-divider">
+
+  <div class="footer-bottom">
+    <p>© 2024 Paws n’ Play. All rights reserved.</p>
+    <div class="footer-icons">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-solid fa-hand-peace"></i>
+      <i class="fa-brands fa-dribbble"></i>
+    </div>
+  </div>
+</section>
+
 
 </body>
 </html>
